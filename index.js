@@ -4,7 +4,7 @@
 
 const express = require("express");
 const dotenv = require("dotenv");
-const connectDB = require("./database/db.js");
+const connectDB = require("./database/mongodb.config.js");
 dotenv.config();
 connectDB();
 
